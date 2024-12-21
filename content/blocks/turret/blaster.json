@@ -1,0 +1,64 @@
+{
+  "type": "ItemTurret",
+  "name": "Blaster",
+  "description": "Explodes and fires 3 rocket",
+  "health": 550,
+  "range": 128,
+  "size": 1,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 0.25,
+  "shootCone": 360,
+  "recoil": 0,
+  "shootSound": "explode",
+  "buildCostMultiplier": 0.3,
+  "consumes": {
+    "coolant": {
+      "amount": 0.1
+    }
+  },
+  "ammoTypes": {
+      "Blast-compound": {
+      "lifetime": 0,
+      "type": "BulletType",
+      "ammoMultiplier": 1,
+      "reloadMultiplier": 1.2,
+      "shootEffect": "shootSmall",,
+      "splashDamage": 60,
+      "splashDamageRadius": 64
+      "fragBullets": 3,
+      "fragBullet": { //figure out how to put new missile bullet
+        "type": "MissileBulletType"
+        "height": 8
+        "width": 4,
+        "damage": 12,
+        "splashDamage": 27,
+        "splashDamageRadius": 12,
+        "lifetime": 30,
+        "speed": 2.8,
+        "homingPower"
+        "status": "burning"
+        "statusDuration": 90
+        "backColor": "ffaa5f",
+        "frontColor": "ffaa5f",
+        "makeFire": true,
+      }
+      "fragRandomAngle": 0,
+      "fragAngle": 120,
+      "fragVelocityMin": 1,
+      "fragVelocityMax": 1,
+      "fragLifeMin": 1,
+      "fragLifeMax": 1,
+    }
+  },
+
+  "requirements": [
+    {"item": "copper", "amount": 80},
+    {"item": "lead", "amount": 75},
+    {"item": "graphite", "amount": 40},
+    {"item": "titanium", "amount": 35},
+    {"item": "plastanium", "amount": 25}
+  ],
+  "category": "turret",
+  "research": "plastanium-compressor"
+}
