@@ -5,5 +5,5 @@
   repo: LymeFyre/Turret-salad
   description: Adds a variety of turrets
   version: 0.1
-  minGameVersion: 146v
+  minGameVersion: 146
 }
