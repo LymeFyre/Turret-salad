@@ -27,8 +27,8 @@
       "splashDamage": 60,
       "splashDamageRadius": 64,
       "fragBullets": 3,
-      "fragBullet": { //figure out how to put new missile bullet
-        "type": "MissileBulletType"
+      "fragBullet": {
+        "type": "MissileBulletType",
         "height": 8,
         "width": 4,
         "damage": 12,
@@ -42,7 +42,7 @@
         "backColor": "ffaa5f",
         "frontColor": "ffaa5f",
         "makeFire": true
-      }
+      },
       "fragRandomAngle": 0,
       "fragAngle": 120,
       "fragVelocityMin": 1,
