@@ -1,6 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Blaster",
+  "sprite": "blaster"
   "description": "Explodes and fires 3 rocket",
   "health": 550,
   "range": 128,
