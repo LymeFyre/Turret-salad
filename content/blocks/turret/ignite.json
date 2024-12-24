@@ -57,7 +57,7 @@
       "status": "burning",
       "statusDuration": 480
     },
-    
+  }
   "requirements": [
     {"item": "copper", "amount": 60},
     {"item": "lead", "amount": 40},
@@ -66,4 +66,4 @@
   ],
   "category": "turret",
   "research": "titanium"
-}
+  }
