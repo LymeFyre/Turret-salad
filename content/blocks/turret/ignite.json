@@ -1,6 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Ignite",
+  "sprite": "ignite"
   "description": "Long range turret that shoots bullets that ignites and pierces through multiple targets",
   "health": 400,
   "range": 210,
