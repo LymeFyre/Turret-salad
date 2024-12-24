@@ -18,7 +18,7 @@
     }
   },
   "ammoTypes": {
-      "Blast-compound": {
+      "blastCompound": {
       "lifetime": 0,
       "type": "BulletType",
       "ammoMultiplier": 1,
