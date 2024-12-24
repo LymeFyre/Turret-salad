@@ -5,6 +5,7 @@
   "health": 550,
   "range": 128,
   "size": 1,
+  "reload": 200,
   "targetAir": true,
   "targetGround": true,
   "rotateSpeed": 0.25,
