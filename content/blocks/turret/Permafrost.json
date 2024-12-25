@@ -40,7 +40,8 @@
       "width": 8,
       "height": 20,
       "status": "freezing",
-      "statusDuration": 3600
+      "statusDuration": 360
+      },
     },
   "requirements": [
     {"item": "lead", "amount": 80},
