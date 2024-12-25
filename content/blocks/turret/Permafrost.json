@@ -1,0 +1,52 @@
+{
+  "type": "LiquidTurret",
+  "name": "Permafrost",
+  "sprite": "Permafrost"
+  "description": "Solidifies cryofluid and shoots icicles, inflicting freeze for an extended period.",
+  "health": 800,
+  "range": 300,
+  "size": 2,
+  "sprite": "permafrost"
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 1.8,
+  "inaccuracy": 3,
+  "recoil": 0.9,
+  "reload": 70
+  "shootSound": "freeze", //?
+  "buildCostMultiplier": 0.5,
+  "shoot": {
+  	"shots": 2,
+  	"shotDelay": 7
+  },
+  "ammoTypes": {
+      "cryofluid": {
+      "lifetime": 20,
+      "speed": 15,
+      "damage": 27,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 2,
+      "shootEffect": "shootSmallFlame",
+      "pierce": true,
+      "pierceBuildings": true,
+      "piercrArmor": true,
+      "pierceCap": 4,
+      "frontColor": "ffffff",
+      "backColor": "6ecdec",
+      "trailColod": "6ecdec",
+      "trailEffect": "freezing",
+      "trailInterval": 3,
+      "trailLength": 8,
+      "width": 8,
+      "height": 20,
+      "status": "freezing",
+      "statusDuration": 3600
+    },
+  "requirements": [
+    {"item": "lead", "amount": 80},
+    {"item": "graphite", "amount": 40},
+    {"item": "titanium", "amount": 15}
+  ],
+  "category": "turret",
+  "research": "cryofluid"
+}
