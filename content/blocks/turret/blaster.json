@@ -24,7 +24,6 @@
       "lifetime": 0,
       "type": "BulletType",
       "ammoMultiplier": 1,
-      "reloadMultiplier": 1.2,
       "shootEffect": "shootSmall",
       "splashDamage": 48,
       "splashDamageRadius": 64,
