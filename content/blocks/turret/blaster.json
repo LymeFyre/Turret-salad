@@ -20,13 +20,13 @@
     }
   },
   "ammoTypes": {
-      "blastCompound": {
+      "coal": {
       "lifetime": 0,
       "type": "BulletType",
       "ammoMultiplier": 1,
       "reloadMultiplier": 1.2,
       "shootEffect": "shootSmall",
-      "splashDamage": 60,
+      "splashDamage": 48,
       "splashDamageRadius": 64,
       "fragBullets": 3,
       "fragBullet": {
@@ -39,11 +39,12 @@
         "lifetime": 30,
         "speed": 2.8,
         "homingPower": 0.2,
+        "homingRadius": 80,
+        "homingDelay": 10,
         "status": "burning",
         "statusDuration": 90,
         "backColor": "ffaa5f",
-        "frontColor": "ffaa5f",
-        "makeFire": true
+        "frontColor": "ffaa5f"
       },
       "fragRandomAngle": 0,
       "fragAngle": 120,
