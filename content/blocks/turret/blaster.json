@@ -50,7 +50,8 @@
       "fragVelocityMin": 1,
       "fragVelocityMax": 1,
       "fragLifeMin": 1,
-      "fragLifeMax": 1
+      "fragLifeMax": 1,
+      "despawnEffect": "explosion"
     }
   },
 
