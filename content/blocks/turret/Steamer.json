@@ -1,0 +1,44 @@
+{
+  "type": "LiquidTurret",
+  "name": "Steamer",
+  "sprite": "steamer"
+  "description": "Boils water creating steam and shoots it.",
+  "health": 800,
+  "range": 250,
+  "size": 3,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 1.2,
+  "inaccuracy": 0,
+  "recoil": 0.9,
+  "reload": 30,
+  "maxAmmo": 100
+  "shootSound": "smoke",
+  "buildCostMultiplier": 0.5,
+  "shoot": "ShootHelix",
+  "ammoTypes": {
+      "water": {
+      "lifetime": 25,
+      "speed": 10,
+      "damage": 18,
+      "type": "BasicBulletType",
+      "shootEffect": "smoke",
+      "frontColor": "ffffff",
+      "backColor": "ffffff",
+      "trailColor": "888888",
+      "trailLength": 24,
+      "knockback": 5,
+      "width": 4,
+      "height": 4,
+      "hitEffect": "smoke",
+      "status": "slow",
+      "statusDuration": 30
+    },
+  "requirements": [
+    {"item": "lead", "amount": 100},
+    {"item": "graphite", "amount": 65},
+    {"item": "metaglass", "amount": 20}
+  ],
+  "category": "turret",
+  "research": "metaglass"
+}
