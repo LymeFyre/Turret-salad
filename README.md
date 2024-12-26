@@ -10,4 +10,6 @@ A JSON mindustry mod that focuses on adding a variety of turrets
 **Ignite** - Shoots a fast burning bullet that can pierce targets
 
 
-**Permafrost** (unfinished) - Shoots piercing cold icicles, freezing units for a long time
+**Permafrost** - Shoots piercing cold icicles, freezing units for a long time
+
+**Steamer** - Shoots steam, high knockback
