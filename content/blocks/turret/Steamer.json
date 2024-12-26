@@ -34,6 +34,7 @@
       "status": "slow",
       "statusDuration": 30
     },
+  },
   "requirements": [
     {"item": "lead", "amount": 100},
     {"item": "graphite", "amount": 65},
