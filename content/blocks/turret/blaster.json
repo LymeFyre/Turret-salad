@@ -2,11 +2,11 @@
   "type": "ItemTurret",
   "name": "Blaster",
   "sprite": "blaster",
-  "description": "Explodes and fires 3 rocket",
+  "description": "Explodes violently and fires 5 rocket",
   "health": 550,
   "range": 80,
   "size": 1,
-  "reload": 90,
+  "reload": 120,
   "targetAir": true,
   "targetGround": true,
   "rotateSpeed": 0.25,
@@ -37,7 +37,7 @@
         "splashDamageRadius": 24,
         "lifetime": 30,
         "speed": 2.9,
-        "homingPower": 0.6,
+        "homingPower": 0.5,
         "homingRadius": 120,
         "homingDelay": 10,
         "status": "burning",
@@ -51,7 +51,7 @@
       "fragVelocityMax": 1,
       "fragLifeMin": 1,
       "fragLifeMax": 1,
-      "despawnEffect": "explosion"
+      "despawnEffect": "massiveExplosion"
     }
   },
 
