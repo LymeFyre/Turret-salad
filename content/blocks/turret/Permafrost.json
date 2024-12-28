@@ -3,34 +3,35 @@
   "name": "Permafrost",
   "sprite": "Permafrost"
   "description": "Solidifies cryofluid and shoots icicles, inflicting freeze for an extended period.",
-  "health": 960,
-  "range": 300,
+  "health": 240,
+  "range": 200,
   "size": 1,
-  "sprite": "permafrost"
   "targetAir": true,
   "targetGround": true,
   "rotateSpeed": 1.6,
-  "inaccuracy": 2,
+  "inaccuracy": 2.5,
   "recoil": 0.9,
-  "reload": 70
+  "reload": 80,
   "shootSound": "freeze",
   "buildCostMultiplier": 0.5,
+  "ammoPerShot": 30,
+  "maxAmmo": 45,
   "shoot": {
-  	"shots": 2,
-  	"shotDelay": 4
+  	"shots": 7,
   },
   "ammoTypes": {
       "cryofluid": {
       "lifetime": 20,
-      "speed": 15,
-      "damage": 37,
+      "speed": 10,
+      "damage": 27,
       "type": "BasicBulletType",
       "ammoMultiplier": 1,
       "shootEffect": "shootSmallFlame",
       "pierce": true,
       "pierceBuildings": true,
       "pierceArmor": true,
-      "pierceCap": 4,
+      "pierceCap": 6,
+      "creatChance": 0.5,
       "frontColor": "ffffff",
       "backColor": "6ecdec",
       "trailColor": "6ecdec",
@@ -40,7 +41,7 @@
       "width": 8,
       "height": 20,
       "status": "freezing",
-      "statusDuration": 360
+      "statusDuration": 3600
       },
     },
   "requirements": [
