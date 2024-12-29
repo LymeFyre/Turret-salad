@@ -17,7 +17,8 @@
   "ammoPerShot": 30,
   "maxAmmo": 45,
   "shoot": {
-  	"shots": 7,
+    "type": "helix",
+  	"shots": 1,
   },
   "ammoTypes": {
       "cryofluid": {
@@ -31,7 +32,6 @@
       "pierceBuildings": true,
       "pierceArmor": true,
       "pierceCap": 6,
-      "creatChance": 0.5,
       "frontColor": "ffffff",
       "backColor": "6ecdec",
       "trailColor": "6ecdec",
