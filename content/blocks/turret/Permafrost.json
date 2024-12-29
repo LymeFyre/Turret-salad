@@ -17,8 +17,10 @@
   "ammoPerShot": 30,
   "maxAmmo": 45,
   "shoot": {
-    "type": "shootHelix",
-  	"shots": 1,
+    "type": "shootAlternate",
+    "spread": 4.5,
+  	"shots": 2,
+    "shotDelay": 2
   },
   "ammoTypes": {
       "cryofluid": {
