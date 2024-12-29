@@ -17,7 +17,7 @@
   "ammoPerShot": 30,
   "maxAmmo": 45,
   "shoot": {
-    "type": "helix",
+    "type": "shootHelix",
   	"shots": 1,
   },
   "ammoTypes": {
