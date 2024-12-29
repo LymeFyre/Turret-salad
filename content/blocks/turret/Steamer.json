@@ -9,6 +9,7 @@
   "size": 3,
   "targetAir": true,
   "targetGround": true,
+  "extinguish": false,
   "rotateSpeed": 1.2,
   "inaccuracy": 0,
   "recoil": 0.9,
@@ -16,7 +17,9 @@
   "maxAmmo": 100
   "shootSound": "steam",
   "buildCostMultiplier": 0.5,
-  "shoot": "helix",
+  "shoot": {
+    type: "shootHelix",
+  },
   "ammoTypes": {
       "water": {
       "lifetime": 90,
