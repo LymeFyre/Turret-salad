@@ -10,6 +10,7 @@
   "targetGround": true,
   "rotateSpeed": 1.6,
   "inaccuracy": 2.5,
+  "extinguish": false,
   "recoil": 0.9,
   "reload": 80,
   "shootSound": "freeze",
