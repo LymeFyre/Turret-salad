@@ -3,7 +3,7 @@
   displayName: Turret salad
   author: Incen
   repo: LymeFyre/Turret-salad
-  description: Adds a variety of turrets
-  version: 0.1
+  description: Adds a variety of turrets. Currently unfinished, expect bugs and report them to @incendiarytoaster on discord.
+  version: 0.5
   minGameVersion: 146
 }
