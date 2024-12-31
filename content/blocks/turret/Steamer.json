@@ -16,7 +16,7 @@
   "reload": 30,
   "maxAmmo": 100
   "shootSound": "steam",
-  "shootEffect": "steam,
+  "shootEffect": "steam",
   "buildCostMultiplier": 0.4,
   "shoot": {
     "type": "shootHelix",
