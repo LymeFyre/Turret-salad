@@ -10,7 +10,7 @@
   "targetAir": true,
   "targetGround": true,
   "extinguish": false,
-  "rotateSpeed": 1.2,
+  "rotateSpeed": 1.4,
   "inaccuracy": 0,
   "recoil": 0.9,
   "reload": 30,
@@ -20,8 +20,8 @@
   "buildCostMultiplier": 0.4,
   "shoot": {
     "type": "shootHelix",
-    "scl": 2,
-    "mag": 2
+    "scl": 4,
+    "mag": 1
   },
   "ammoTypes": {
       "water": {
