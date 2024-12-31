@@ -16,9 +16,17 @@
   "reload": 30,
   "maxAmmo": 100
   "shootSound": "steam",
+  "shootEffect": {
+    "type": "explosionEffect",
+    "smokeColor": "ffffff",
+    "smokes": 3,
+    "lifetime": 20,
+    },
   "buildCostMultiplier": 0.5,
   "shoot": {
-    type: "shootHelix",
+    "type": "shootHelix",
+    "scl": 5,
+    "mag": 3
   },
   "ammoTypes": {
       "water": {
@@ -34,7 +42,12 @@
       "knockback": 5,
       "width": 4,
       "height": 4,
-      "hitEffect": "steam",
+      "hitEffect": {
+        "type": "explosionEffect",
+        "smokeColor": "ffffff",
+        "smokes": 5,
+        "lifetime": 40,
+      },
       "status": "slow",
       "statusDuration": 30
     },
