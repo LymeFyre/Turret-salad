@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Comet",
-  "sprite": "Comet",
+  "sprite": "comet",
   "description": "Launches a slow projectile that damages and temporarily slows enemies in a small area",
   "health": 2250,
   "range": 200,
