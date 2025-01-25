@@ -36,13 +36,14 @@
       "incendChance": 1,
       "incendAmount": 1
     },
+  },
   "buildVisibility": "sandboxOnly",
-  //"requirements": [
-    //{"item": "copper", "amount": 85},
-    //{"item": "silicon", "amount": 50},
-    //{"item": "titanium", "amount": 40},
-    //{"item": "thorium", "amount": 25}
-  //],
+  "requirements": [
+    {"item": "copper", "amount": 85},
+    {"item": "silicon", "amount": 50},
+    {"item": "titanium", "amount": 40},
+    {"item": "thorium", "amount": 25}
+  ],
   "category": "turret",
   "research": "pyratite"
 }
