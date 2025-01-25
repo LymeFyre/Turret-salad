@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Hellfire",
-  "sprite": "Hellfire",
+  "sprite": "hellfire",
   "description": "Spews fire",
   "health": 2700,
   "range": 150,
