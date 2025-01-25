@@ -11,3 +11,12 @@ A JSON mindustry mod that focuses on adding a variety of turrets
 
 
 **Permafrost** - Shoots piercing cold icicles, freezing units for a long time
+
+
+**Steamer** - Fires puffs of steam briefly slowing targets and knocks them back
+
+
+**Comet** - Launches a slow moving projectile capable of briefly slowing targets
+
+
+**Hellfire** - Rapidly shoots thermal bullets that burns
