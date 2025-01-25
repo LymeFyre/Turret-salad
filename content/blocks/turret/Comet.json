@@ -1,0 +1,48 @@
+{
+  "type": "ItemTurret", //heavily unfinished!
+  "name": "Comet",
+  "description": "Launches a slow projectile that damages and temporarily slows enemies in a small area",
+  "health": 2250,
+  "range": 180,
+  "size": 3,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 2.4,
+  "inaccuracy": 0,
+  "recoil": 1.4,
+  "reload": 180
+  "shootSound": "shoot",
+  "buildCostMultiplier": 0.45,
+  "consumes": {
+    "coolant": {
+      "amount": 0.25
+    }
+  },
+  "ammoTypes": {
+      "titanium": {
+      "lifetime": 90,
+      "speed": 2,
+      "splashDamageRadius": 12,
+      "splashDamage": 36,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 4,
+      "frontColor": "ffffff",
+      "backColor": "ffdd55",
+      "trailLength": 36,
+      "trailColor": "ffdd55",
+      "width": 12,
+      "height": 12,
+      "status": "slow",
+      "statusDuration": 30
+    },
+  },
+  "buildVisibility": "sandboxOnly"
+  //"requirements": [
+    //{"item": "lead", "amount": 120},
+    //{"item": "silicon", "amount": 60},
+    //{"item": "titanium", "amount": 60},
+    //{"item": "plastanium", "amount": 30}
+  //],
+  "category": "turret",
+  "research": "titanium"
+}

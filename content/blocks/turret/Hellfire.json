@@ -1,0 +1,48 @@
+{
+  "type": "ItemTurret",
+  "name": "Hellfire",
+  "sprite": "Hellfire"
+  "description": "Spews fire",
+  "health": 2700,
+  "range": 150,
+  "size": 3,
+  "targetAir": true,
+  "targetGround": true,
+  "rotateSpeed": 2,
+  "recoil": 0.2,
+  "reload": 120,
+  "buildCostMultiplier": 0.45,
+  "inaccuracy": 20,
+  "shoot": {
+  	"shots": 10,
+  	"shotDelay": 6
+  },
+  "ammoTypes": {
+      "pyratite": {
+      "lifetime": 60,
+      "speed": 2.5,
+      "damage": 27,
+      "type": "BasicBulletType",
+      "ammoMultiplier": 4,
+      "shootEffect": "shootSmallFlame",
+      "frontColor": "ffffff",
+      "backColor": "ffdd66",
+      "trailEffect": "burning",
+      "trailInterval": 1,
+      "width": 4,
+      "height": 12,
+      "status": "burning",
+      "statusDuration": 180,
+      "incendChance": 1,
+      "incendAmount": 1
+    },
+  "buildVisibility": "sandboxOnly",
+  //"requirements": [
+    //{"item": "copper", "amount": 85},
+    //{"item": "silicon", "amount": 50},
+    //{"item": "titanium", "amount": 40},
+    //{"item": "thorium", "amount": 25}
+  //],
+  "category": "turret",
+  "research": "pyratite"
+}
