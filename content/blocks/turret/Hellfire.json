@@ -1,7 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Hellfire",
-  "sprite": "Hellfire"
+  "sprite": "Hellfire",
   "description": "Spews fire",
   "health": 2700,
   "range": 150,
@@ -14,21 +14,21 @@
   "buildCostMultiplier": 0.45,
   "inaccuracy": 20,
   "shoot": {
-  	"shots": 10,
-  	"shotDelay": 6
+  	"shots": 6,
+  	"shotDelay": 10
   },
   "ammoTypes": {
       "pyratite": {
-      "lifetime": 60,
-      "speed": 2.5,
-      "damage": 27,
+      "lifetime": 30,
+      "speed": 5,
+      "damage": 24,
       "type": "BasicBulletType",
       "ammoMultiplier": 4,
       "shootEffect": "shootSmallFlame",
       "frontColor": "ffffff",
       "backColor": "ffdd66",
       "trailEffect": "burning",
-      "trailInterval": 1,
+      "trailInterval": 2,
       "width": 4,
       "height": 12,
       "status": "burning",
