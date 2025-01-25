@@ -1,7 +1,7 @@
 {
   "type": "LiquidTurret",
   "name": "Permafrost",
-  "sprite": "Permafrost",
+  "sprite": "permafrost",
   "description": "Solidifies cryofluid and shoots icicles, inflicting freeze for an extended period.",
   "health": 240,
   "range": 200,
