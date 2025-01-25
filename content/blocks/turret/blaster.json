@@ -1,11 +1,11 @@
 {
   "type": "ItemTurret",
   "name": "Blaster",
-  "sprite": "Blaster",
+  "sprite": "blaster",
   "description": "Explodes violently and fires 5 rocket",
   "health": 550,
   "range": 80,
-  "size": 1,
+  "size": 2,
   "reload": 120,
   "targetAir": true,
   "targetGround": true,
