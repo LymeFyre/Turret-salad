@@ -1,3 +1,5 @@
+**v0.6.1** - minor balancing and visual changes and bug fix
+
 **v0.6** - new turrets Comet & Hellfire, balance changes, visual changes and more!
 
 
