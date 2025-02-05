@@ -1,8 +1,8 @@
 {
   "type": "ItemTurret",
   "name": "Blaster",
-  "description": "Explodes violently and fires 5 rocket",
-  "health": 550,
+  "description": "Explodes violently and fires 6 rocket at all direction",
+  "health": 800,
   "range": 80,
   "size": 2,
   "reload": 300,
@@ -12,10 +12,10 @@
   "shootCone": 360,
   "recoil": 0,
   "shootSound": "explode",
-  "buildCostMultiplier": 0.6,
+  "buildCostMultiplier": 0.7,
   "consumes": {
     "coolant": {
-      "amount": 0.4
+      "amount": 0.5
     }
   },
   "ammoTypes": {
