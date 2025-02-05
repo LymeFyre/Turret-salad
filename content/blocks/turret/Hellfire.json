@@ -2,9 +2,9 @@
   "type": "ItemTurret",
   "name": "Hellfire",
   "description": "Spews fire rapidly",
-  "health": 2700,
+  "health": 1000,
   "range": 150,
-  "size": 3,
+  "size": 2,
   "targetAir": true,
   "targetGround": true,
   "rotateSpeed": 2,
@@ -13,8 +13,14 @@
   "buildCostMultiplier": 0.45,
   "inaccuracy": 20,
   "shoot": {
-  	"shots": 20,
-  	"shotDelay": 3
+    "type": "ShootBarrel",
+    "barrels": {
+      {-4, -1.25, 0},
+      {0, 0, 0},
+      {4, -1.25, 0}
+    },
+  	"shots": 9,
+  	"shotDelay": 6
   },
   "ammoTypes": {
       "pyratite": {
