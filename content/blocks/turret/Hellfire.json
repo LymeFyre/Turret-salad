@@ -9,23 +9,17 @@
   "targetGround": true,
   "rotateSpeed": 2,
   "recoil": 0.2,
-  "reload": 180,
+  "reload": 120,
   "buildCostMultiplier": 0.45,
   "inaccuracy": 20,
   "shoot": {
-    "type": "ShootBarrel",
-    "barrels": {
-      {-4, -1.25, 0},
-      {0, 0, 0},
-      {4, -1.25, 0}
-    },
-  	"shots": 9,
-  	"shotDelay": 6
+    "shots": 9,
+  	"shotDelay": 4
   },
   "ammoTypes": {
       "pyratite": {
-      "lifetime": 60,
-      "speed": 2.5,
+      "lifetime": 30,
+      "speed": 5,
       "damage": 27,
       "type": "BasicBulletType",
       "ammoMultiplier": 4,
