@@ -11,14 +11,14 @@
   "rotateSpeed": 1.4,
   "inaccuracy": 0,
   "recoil": 0.9,
-  "reload": 30,
+  "reload": 90,
   "maxAmmo": 100
   "shootSound": "steam",
   "shootEffect": "steam",
-  "buildCostMultiplier": 0.6,
+  "buildCostMultiplier": 0.5,
   "shoot": {
     "type": "shootHelix",
-    "scl": 16,
+    "scl": 4,
     "mag": 2
   },
   "ammoTypes": {
