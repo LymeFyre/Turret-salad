@@ -1,8 +1,7 @@
 {
   "type": "ItemTurret",
   "name": "Hellfire",
-  "sprite": "hellfire",
-  "description": "Spews fire",
+  "description": "Spews fire rapidly",
   "health": 2700,
   "range": 150,
   "size": 3,
@@ -10,33 +9,33 @@
   "targetGround": true,
   "rotateSpeed": 2,
   "recoil": 0.2,
-  "reload": 120,
+  "reload": 180,
   "buildCostMultiplier": 0.45,
   "inaccuracy": 20,
   "shoot": {
-  	"shots": 6,
-  	"shotDelay": 10
+  	"shots": 20,
+  	"shotDelay": 3
   },
   "ammoTypes": {
       "pyratite": {
-      "lifetime": 30,
-      "speed": 5,
-      "damage": 24,
+      "lifetime": 60,
+      "speed": 2.5,
+      "damage": 27,
       "type": "BasicBulletType",
       "ammoMultiplier": 4,
       "shootEffect": "shootSmallFlame",
       "frontColor": "ffffff",
       "backColor": "ffdd66",
       "trailEffect": "burning",
-      "trailInterval": 2,
+      "trailInterval": 1,
       "width": 4,
       "height": 12,
       "status": "burning",
       "statusDuration": 180,
       "incendChance": 1,
       "incendAmount": 1
-    },
-  },
+      },
+   },
   "buildVisibility": "sandboxOnly",
   "requirements": [
     {"item": "copper", "amount": 85},
