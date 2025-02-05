@@ -15,25 +15,25 @@
   "maxAmmo": 100
   "shootSound": "steam",
   "shootEffect": "steam",
-  "buildCostMultiplier": 0.4,
+  "buildCostMultiplier": 0.6,
   "shoot": {
     "type": "shootHelix",
-    "scl": 4,
-    "mag": 1
+    "scl": 16,
+    "mag": 2
   },
   "ammoTypes": {
       "water": {
-      "lifetime": 90,
-      "speed": 2,
+      "lifetime": 45,
+      "speed": 4,
       "damage": 18,
       "type": "BasicBulletType",
       "frontColor": "ffffff",
       "backColor": "ffffff",
       "trailColor": "888888",
       "trailLength": 20,
-      "knockback": 5,
-      "width": 4,
-      "height": 4,
+      "knockback": 6,
+      "width": 8,
+      "height": 8,
       "hitEffect": {
         "type": "explosionEffect",
         "smokeColor": "ffffff",
