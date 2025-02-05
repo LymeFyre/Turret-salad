@@ -1,9 +1,7 @@
 {
   "type": "LiquidTurret",
   "name": "Steamer",
-  "sprite": "steamer",
   "description": "Boils water creating steam and shoots it.",
-  "buildVisibility": "debugOnly", //w.i.p
   "health": 800,
   "range": 180,
   "size": 3,
