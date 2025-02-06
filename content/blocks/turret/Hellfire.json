@@ -36,7 +36,6 @@
       "incendAmount": 1
       },
    },
-  "buildVisibility": "sandboxOnly",
   "requirements": [
     {"item": "copper", "amount": 85},
     {"item": "silicon", "amount": 50},
