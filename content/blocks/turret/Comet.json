@@ -36,7 +36,6 @@
       "statusDuration": 40
     },
   },
-  "buildVisibility": "sandboxOnly"
   "requirements": [
     {"item": "lead", "amount": 120},
     {"item": "silicon", "amount": 50},
