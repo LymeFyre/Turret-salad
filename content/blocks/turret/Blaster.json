@@ -1,11 +1,11 @@
 {
   "type": "ItemTurret",
   "name": "Blaster",
-  "description": "Explodes violently and fires 6 rocket at all direction",
+  "description": "Explodes violently and fires rockets at all direction",
   "health": 800,
   "range": 80,
   "size": 2,
-  "reload": 300,
+  "reload": 240,
   "targetAir": true,
   "targetGround": true,
   "rotateSpeed": 0,
@@ -13,11 +13,7 @@
   "recoil": 0,
   "shootSound": "explode",
   "buildCostMultiplier": 0.7,
-  "consumes": {
-    "coolant": {
-      "amount": 0.5
-    }
-  },
+  "ammoPerShot": 10,
   "ammoTypes": {
       "coal": {
       "lifetime": 0,
@@ -26,18 +22,18 @@
       "shootEffect": "shootSmall",
       "splashDamage": 80,
       "splashDamageRadius": 80,
-      "fragBullets": 6,
+      "fragBullets": 3,
       "fragBullet": {
         "type": "MissileBulletType",
         "height": 4,
         "width": 2,
         "damage": 0,
-        "splashDamage": 16,
-        "splashDamageRadius": 12,
-        "lifetime": 15,
-        "speed": 4,
-        "homingPower": 0.8,
-        "homingRadius": 120,
+        "splashDamage": 21,
+        "splashDamageRadius": 8,
+        "lifetime": 20,
+        "speed": 3,
+        "homingPower": 0.5,
+        "homingRadius": 80,
         "homingDelay": 10,
         "status": "burning",
         "statusDuration": 60,
@@ -50,15 +46,47 @@
       "fragVelocityMax": 1,
       "fragLifeMin": 1,
       "fragLifeMax": 1,
-      "despawnEffect": "massiveExplosion"
+      "despawnEffect": "bigShockwave"
+    }
+      "sporePod": {
+        "lifetime": 0,
+        "type": "BulletType",
+        "ammoMultiplier": 2,
+        "shootEffect": "shootSmall",
+        "splashDamage": 60,
+        "splashDamageRadius": 80,
+        "fragBullets": 2,
+        "fragBullet": {
+          "type": "MissileBulletType",
+          "height": 4,
+          "width": 2,
+          "damage": 0,
+          "splashDamage": 18,
+          "splashDamageRadius": 8,
+          "lifetime": 15,
+          "speed": 5,
+          "homingPower": 0.35,
+          "homingRadius": 160,
+          "homingDelay": 10,
+          "status": "sporeSlowed",
+          "statusDuration": 40,
+          "backColor": "7457ce",
+          "frontColor": "ffffff"
+        },
+        "fragRandomAngle": 0,
+        "fragAngle": 60,
+        "fragVelocityMin": 1,
+        "fragVelocityMax": 1,
+        "fragLifeMin": 1,
+        "fragLifeMax": 1,
+        "despawnEffect": "bigShockwave"
     }
   },
 
   "requirements": [
     {"item": "copper", "amount": 80},
     {"item": "lead", "amount": 75},
-    {"item": "graphite", "amount": 40},
-    {"item": "silicon", "amount": 15},
+    {"item": "graphite", "amount": 70},
   ],
   "category": "turret",
   "research": "scorch",
