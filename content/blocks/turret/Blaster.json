@@ -48,7 +48,7 @@
       "fragLifeMax": 1,
       "despawnEffect": "bigShockwave"
     }
-      "sporePod": {
+      "spore-pod": {
         "lifetime": 0,
         "type": "BulletType",
         "ammoMultiplier": 2,
