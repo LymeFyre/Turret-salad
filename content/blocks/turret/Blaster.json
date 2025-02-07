@@ -48,7 +48,7 @@
       "fragLifeMax": 1,
       "despawnEffect": "bigShockwave"
     }
-      "spore-pod": {
+      "SporePod": {
         "lifetime": 0,
         "type": "BulletType",
         "ammoMultiplier": 2,
@@ -68,7 +68,7 @@
           "homingPower": 0.35,
           "homingRadius": 160,
           "homingDelay": 10,
-          "status": "sporeSlowed",
+          "status": "SporeSlowed",
           "statusDuration": 40,
           "backColor": "7457ce",
           "frontColor": "ffffff"
