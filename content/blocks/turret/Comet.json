@@ -15,7 +15,7 @@
   "buildCostMultiplier": 0.45,
   "consumes": {
     "coolant": {
-      "amount": 0.75
+      "amount": 0.1
     }
   },
   "ammoTypes": {
