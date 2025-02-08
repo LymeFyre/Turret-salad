@@ -12,19 +12,19 @@
   "inaccuracy": 0,
   "recoil": 0.9,
   "reload": 90,
-  "maxAmmo": 100
+  "maxAmmo": 100,
   "shootSound": "steam",
   "shootEffect": "steam",
   "buildCostMultiplier": 0.5,
   "shoot": {
     "type": "shootHelix",
-    "scl": 4,
+    "scl": 3,
     "mag": 2
   },
   "ammoTypes": {
       "water": {
-      "lifetime": 45,
-      "speed": 4,
+      "lifetime": 60,
+      "speed": 3,
       "damage": 18,
       "type": "BasicBulletType",
       "frontColor": "ffffff",
@@ -32,8 +32,8 @@
       "trailColor": "888888",
       "trailLength": 20,
       "knockback": 6,
-      "width": 8,
-      "height": 8,
+      "width": 16,
+      "height": 16,
       "hitEffect": {
         "type": "explosionEffect",
         "smokeColor": "ffffff",
@@ -41,13 +41,13 @@
         "lifetime": 40,
       },
       "status": "slow",
-      "statusDuration": 30
+      "statusDuration": 20
     },
   },
   "requirements": [
     {"item": "lead", "amount": 100},
     {"item": "graphite", "amount": 65},
-    {"item": "metaglass", "amount": 20}
+    {"item": "metaglass", "amount": 30}
   ],
   "category": "turret",
   "research": "metaglass"
