@@ -71,7 +71,7 @@
           "homingPower": 0.65,
           "homingRadius": 80,
           "homingDelay": 10,
-          "status": "Blasted",
+          "status": "blasted",
           "statusDuration": 40,
           "backColor": "ff795e",
           "frontColor": "ffffff"
