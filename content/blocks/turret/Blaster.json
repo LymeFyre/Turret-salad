@@ -48,7 +48,7 @@
       "fragLifeMin": 1,
       "fragLifeMax": 1,
       "despawnEffect": "bigShockwave"
-    }
+    },
       "blast-compound": {
         "lifetime": 0,
         "type": "BulletType",
