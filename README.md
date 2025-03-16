@@ -1,7 +1,8 @@
-# Turret-salad
+# Mod has been discontinued
+### Turret-salad
 A JSON mindustry mod that focuses on adding a variety of turrets
 
-### Contributions will be appreciated
+### ~~Contributions will be appreciated~~ Mod discontinued
 
 #### Turrets:
 **Blaster** - Casts an explosion violently, shooting 3 incendiary missiles.
